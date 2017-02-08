@@ -20,5 +20,9 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+    int randX, randY, randX2, randY2, randRad;
+    
+    ofPolyline shape1;
 		
 };
