@@ -21,8 +21,11 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
+    // Shape 1
     int randX, randY, randX2, randY2, randRad;
-    
     ofPolyline shape1;
-		
+    
+    // Shape 2
+    ofPolyline shape2;
+    ofPolyline shape3;
 };
